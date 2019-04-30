@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MovieBase</string>
+    <string-array name="planets_array">
+        <item>SORT BY</item>
+        <item>Highest Rated</item>
+        <item>Most Popular</item>
+        <item>My Favorites</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/api14_refresh_view"
+        android:icon="@drawable/favorite_icon_w"
+        android1:showAsAction="always"
+        android:title="Add Favorite"
+        >
+    </item>
+
+</menu>

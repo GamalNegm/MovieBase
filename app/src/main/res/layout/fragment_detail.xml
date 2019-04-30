@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mal.project.gridview.MainFragment"
+    android:background="#111"
+    android:id="@+id/detail_layout"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:background="#4D5C4E">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="350dp"
+            android:id="@+id/poster_detail"
+            android:src="@drawable/poster_placeholder"/>
+        <LinearLayout
+            android:background="#000"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/rate_logo"
+                    android:src="@drawable/rate_logo_w"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Rate"
+                    android:textSize="22dp"
+                    android:textColor="#de4d4d"
+                    android:id="@+id/rate_text" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                 />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/vote_count_logo"
+                    android:src="@drawable/vote_count_logo_w"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Vote count"
+                    android:textSize="22dp"
+                    android:textColor="#de4d4d"
+                    android:id="@+id/vote_count_text" />
+            </LinearLayout> <View
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                 />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/date_logo"
+                    android:src="@drawable/date_logo_w"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Publishing year"
+                    android:textSize="22dp"
+                    android:textColor="#de4d4d"
+                    android:id="@+id/date_text"
+                    />
+
+            </LinearLayout> <View
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                 />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/lang_logo"
+                    android:src="@drawable/lang_logo_w"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Language"
+                    android:textSize="22dp"
+                    android:textColor="#de4d4d"
+                    android:id="@+id/lang_text" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#4D5C4E"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/view" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:id="@+id/linearLayout">
+
+
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Overview"
+            android:id="@+id/overview_header"
+            android:textColor="#e1e1e1"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#4D5C4E"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/view2" />
+        <TextView
+            android:paddingTop="5dp"
+            android:textColor="#e1e1e1"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:id="@+id/overview_text"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#4D5C4E"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/view3" />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Trailers"
+            android:id="@+id/videos"
+            android:textColor="#e1e1e1"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#4D5C4E"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/view4" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/horizontal_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#111"
+                />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#4D5C4E"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/view6" />
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Reviews"
+            android:id="@+id/reviews"
+            android:textColor="#e1e1e1"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#4D5C4E"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/view5" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#111"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+</ScrollView>

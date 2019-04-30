@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.mal.project.gridview.MainActivity">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.mal.project.gridview.MainFragment"
+        tools:layout="@layout/fragment_main" />
+
+
+
+</FrameLayout>

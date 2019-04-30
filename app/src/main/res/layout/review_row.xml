@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#000"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/review_text" />
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#e1e1e1" />
+</LinearLayout>
